@@ -25,11 +25,12 @@
 </template>
 <script>
 import Avatar from "primevue/avatar";
+import { CountryEntity } from "../model/country.entity";
 
 export default {
 	name: "country-card",
 	props: {
-		countryData: null,
+		countryData: CountryEntity,
 	},
 	components: {
 		Avatar,

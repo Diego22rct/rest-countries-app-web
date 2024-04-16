@@ -16,7 +16,7 @@ export default {
 	},
 	data() {
 		return {
-			country: null,
+			country: CountryEntity,
 			countryService: new CountryService(),
 		};
 	},
